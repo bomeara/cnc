@@ -43,6 +43,25 @@ Bit: the bit that came with our machine was a 20 degree bit, 0.125 inches diamet
 
 To generate the gcode, Machine -> Advanced -> Generate g-code. Then a green Export g-code button will appear.
 
+Sample start of g-code file:
+
+```
+G20
+M3 S12000
+G90
+G1 Z0.15000 F9.0
+G0 X0.33728 Y1.00067
+G1 Z-0.02800 F9.0
+G1 X0.36514 Y1.01254 F28.0
+G1 X0.38391 Y1.03589 F28.0
+G1 X0.39362 Y1.07108 F28.0
+G1 X0.39658 Y1.35318 F28.0
+G1 X0.40280 Y1.36838 F28.0
+G1 X0.40909 Y1.37378 F28.0
+G1 X0.43283 Y1.37848 F28.0
+G1 X0.43283 Y1.38400 F28.0
+```
+
 ## Files
 
 Files we've run (and are in the data dir)
