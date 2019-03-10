@@ -66,7 +66,7 @@ G1 X0.43283 Y1.38400 F28.0
 
 Files we've run (and are in the data dir)
 
-**Burgoyne.nc** First output. My son wanted to do carving of John Burgoyne for a school project; the symbol on the right was for a birthday present. The head carving came out ok, the y axis failed on the design (collar between a motor and threaded rod came undone), and, oddly, the "e" was dropped off his last name in the final carving.
+**Burgoyne.nc** First output. My son wanted to do carving of John Burgoyne for a school project; the symbol on the right was for a birthday present. The head carving came out ok, the y axis failed on the design (collar between a motor and threaded rod came undone), and, oddly, the "e" was dropped off his last name in the final carving (I think as a result of the y axis failure).
 
 ![Burgoyne in Easel](Burgoyne.jpg)
 
