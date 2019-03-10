@@ -1,4 +1,4 @@
-# cnc
+# CNC
 
 We're using this to keep track of using our CNC projects and protocols. I'm an amateur figuring out this by looking at resources online, so these are mostly just notes so I don't forget, but maybe others will find them useful, too.
 
