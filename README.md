@@ -20,6 +20,14 @@ CNC: Purchased a [MySweety 3018](https://www.amazon.com/gp/product/B07DXMFY38/re
 
 Overall, I think this was ok value for the price; had I more money available for this, I'd probably look into other options, though.
 
+## Controller
+
+![Controller](controller.jpg)
+
+The controller is pretty simple: put a card in the back, then use the buttons to choose what to do. Center red button is select, the yellow buttons in the control menu can be used to move the spindle up/down (left buttons), forward/back (top/bottom), left/right (left/right). The one thing that was confusing was how to go back up a level in the menus: do to, hold the bottom right button for a few seconds.
+
+To print, file -> file.name, then ok. It may take several seconds to a minute or so (I presume while it loads the g-code into its memory), then start printing.
+
 ## Generating files
 
 Like most CNC, uses g-code files (which have file extension .nc). Using http://easel.inventables.com has been good for generating these files. Exporting g-code requires a pro version, which is free four days a week (yay) but $20/month after that (we've gotten by with the free trials so far).
@@ -43,4 +51,11 @@ Files we've run (and are in the data dir)
 
 ![Burgoyne in Easel](Burgoyne.jpg)
 
+Final output
+
+![Burgoyne finished](BurgoyneFinished.jpg)
+
+
 **Birthday.nc** Another try of the birthday design.
+
+![Birthday diagram](birthday.jpg)
