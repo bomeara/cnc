@@ -4,7 +4,7 @@ We're using this to keep track of using our CNC projects and protocols. I'm an a
 
 ## Machine itself
 
-CNC: Purchased a [https://www.amazon.com/gp/product/B07DXMFY38/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1](MySweety 3018) ("Upgrade Version CNC 3018 Pro GRBL Control DIY Mini CNC Machine, 3 Axis Pcb Milling Machine, Wood Router Engraver with Offline Controller, with ER11 and 5mm Extension Rod"). $269
+CNC: Purchased a [MySweety 3018](https://www.amazon.com/gp/product/B07DXMFY38/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) ("Upgrade Version CNC 3018 Pro GRBL Control DIY Mini CNC Machine, 3 Axis Pcb Milling Machine, Wood Router Engraver with Offline Controller, with ER11 and 5mm Extension Rod"). $269
 
 **Pros:**
 
@@ -39,5 +39,8 @@ To generate the gcode, Machine -> Advanced -> Generate g-code. Then a green Expo
 
 Files we've run (and are in the data dir)
 
-* **Burgoyne.nc** First output. My son wanted to do carving of John Burgoyne for a school project; the symbol on the right was for a birthday present. The head carving came out ok, the y axis failed on the design (collar between a motor and threaded rod came undone), and, oddly, the "e" was dropped off his last name in the final carving.
-* **Birthday.nc** Another try of the birthday design.
+**Burgoyne.nc** First output. My son wanted to do carving of John Burgoyne for a school project; the symbol on the right was for a birthday present. The head carving came out ok, the y axis failed on the design (collar between a motor and threaded rod came undone), and, oddly, the "e" was dropped off his last name in the final carving.
+
+![Burgoyne in Easel](Burgoyne.jpg)
+
+**Birthday.nc** Another try of the birthday design.
