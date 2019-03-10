@@ -30,7 +30,7 @@ To print, file -> file.name, then ok. It may take several seconds to a minute or
 
 ## Generating files
 
-Like most CNC, uses g-code files (which have file extension .nc). Using http://easel.inventables.com has been good for generating these files. Exporting g-code requires a pro version, which is free four days a week (yay) but $20/month after that (we've gotten by with the free trials so far).
+Like most CNC, uses g-code files (which have file extension .nc). Using http://easel.inventables.com has been good for generating these files. Exporting g-code requires a pro version, which is free four days a month (yay) but $20/month after that (we've gotten by with the free trials so far).
 
 Some settings required to make it work for our machine:
 
