@@ -9,7 +9,7 @@ CNC: Purchased a [MySweety 3018](https://www.amazon.com/gp/product/B07DXMFY38/re
 **Pros:**
 
 * Not too expensive
-* Fairly large bed (3018 = 30 cm x 18 cm, not a model number)
+* Fairly large bed (3018 = 30 cm x 18 cm (11.8 x 7 inches), not a model number)
 * The offline controller doesn't require you to have a computer hooked up, can just use an SD card
 
 **Cons:**
@@ -78,3 +78,23 @@ Final output
 **Birthday.nc** Another try of the birthday design.
 
 ![Birthday diagram](birthday.jpg)
+
+**EinsteinQuote.nc** A quote supposedly (but not really) by Einstein my daughter liked. Modification here: adding M5 to the code before the end to make the spindle stop spinning (with past designs, the machine would keep spinning even after the design was done). It's the first `M5` call below (but may actually be a few lines too high)
+
+```
+G1 Z-0.10000 F9.0
+G1 X8.92793 Y4.80617 Z-0.05995 F9.2
+G1 X8.93582 Y4.79779 Z0.00000 F9.2
+G1 X8.92793 Y4.80617 Z-0.05995 F9.2
+G1 X8.92364 Y4.81402 Z-0.10000 F9.2
+G1 X8.92365 Y4.81403 F30.0
+M5
+G20
+G90
+G1 Z0.15000 F9.0
+G0 X0.00000 Y0.00000
+G4 P0.1
+M5
+```
+
+![Inspirational quote](Einstein.jpg)
