@@ -98,3 +98,15 @@ M5
 ```
 
 ![Inspirational quote](Einstein.jpg)
+
+**Fish.nc** Fish, trying inverted to have the image pop
+
+![Fish](Fish.jpg)
+
+**IfYouDontLikeToRead.nc** Quote from JK Rowling
+
+![If you don't like to read](IfYouDontLikeToRead.jpg)
+
+**YouOnlyFailWhenYouStopTrying.nc** More quotes for teacher present
+
+![You only fail when you stop trying](YouOnlyFailWhenYouStopTrying.jpg)
