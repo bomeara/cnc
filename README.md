@@ -28,6 +28,10 @@ The controller is pretty simple: put a card in the back, then use the buttons to
 
 To print, file -> file.name, then ok. It may take several seconds to a minute or so (I presume while it loads the g-code into its memory), then start printing.
 
+## Materials
+
+So far, we've tried baltic birch plywood and basswood boards. We recently ordered [baltic birch plywood](https://www.woodcraft.com/products/baltic-birch-plywood-9mm-3-8-x-12-x-12) from Woodcraft: 12 inches x 12 inches by 3/8 inch thick (about 9.5 mm thick) to batch out some presents: it just barely fits on our machine.
+
 ## Generating files
 
 Like most CNC, uses g-code files (which have file extension .nc). Using http://easel.inventables.com has been good for generating these files. Exporting g-code requires a pro version, which is free four days a month (yay) but $20/month after that (we've gotten by with the free trials so far).
