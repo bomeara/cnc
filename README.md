@@ -107,6 +107,14 @@ M5
 
 ![Fish](Fish.jpg)
 
+Here's the version after it came off the CNC
+
+![Fish Sign](FishSignCompleted.jpg)
+
+And a closeup of the tree, so you can see how the v-bit results in a not smooth bottom.
+
+![Tree closeup](TreeCloseup.jpg)
+
 **IfYouDontLikeToRead.nc** Quote from JK Rowling
 
 ![If you don't like to read](IfYouDontLikeToRead.jpg)
@@ -114,3 +122,7 @@ M5
 **YouOnlyFailWhenYouStopTrying.nc** More quotes for teacher present
 
 ![You only fail when you stop trying](YouOnlyFailWhenYouStopTrying.jpg)
+
+And the version after the CNC
+
+![Trying sign](TryingCompleted.jpg)
