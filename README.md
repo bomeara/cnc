@@ -15,8 +15,9 @@ CNC: Purchased a [MySweety 3018](https://www.amazon.com/gp/product/B07DXMFY38/re
 **Cons:**
 
 * Came with metal shavings and oil on all the aluminum beams, requiring a fair bit of cleaning
-* The bolts connecting the bed to the sliding plastic were too short. Got some longer ones at Lowes; would have been better to order exactly the ones I wanted online, as these were a bit too long (used washers to fix this)
-* Connection between the motors and threaded rods uses adaptors with set screws; so far, those have come loose about 2/3 of the time printing, making the print fail (b/c an axis of movement stops)
+* The bolts connecting the bed to the sliding plastic were too short. Got some longer ones at Lowes; would have been better to order exactly the ones I wanted online, as these were a bit too long (used washers to fix this).
+* The machine came with a link to a file sharing site with info that looked a bit skeevy (lots of files, not clear names, etc.). It's not needed for software or anything, just instructions, but it's not great.
+* Connection between the motors and threaded rods uses adaptors with set screws; so far, those have come loose about 2/3 of the first prints, making the print fail (b/c an axis of movement stops). I've now put the set screws in both sides of the rod (i.e., where the adaptor connects to the motor, there's two holes for set screws, but the instructions indicated use just one side -- using two has been better).
 
 Overall, I think this was ok value for the price; had I more money available for this, I'd probably look into other options, though.
 
