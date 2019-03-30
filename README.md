@@ -103,13 +103,9 @@ M5
 
 ![Inspirational quote](Einstein.jpg)
 
-**Fish.nc** Fish, trying inverted to have the image pop
-
-![Fish](Fish.jpg)
-
 Here's the version after it came off the CNC
 
-![Fish Sign](FishSignCompleted.jpg)
+![Tree Sign](TreeSignCompleted.jpg)
 
 And a closeup of the tree, so you can see how the v-bit results in a not smooth bottom.
 
@@ -118,6 +114,10 @@ And a closeup of the tree, so you can see how the v-bit results in a not smooth 
 **IfYouDontLikeToRead.nc** Quote from JK Rowling
 
 ![If you don't like to read](IfYouDontLikeToRead.jpg)
+
+**Fish.nc** Fish, trying inverted to have the image pop
+
+![Fish](Fish.jpg)
 
 **YouOnlyFailWhenYouStopTrying.nc** More quotes for teacher present
 
