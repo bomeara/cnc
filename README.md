@@ -116,7 +116,7 @@ And a closeup of the tree, so you can see how the v-bit results in a not smooth 
 
 ![If you don't like to read](IfYouDontLikeToRead.jpg)
 
-**Fish.nc** Fish, trying inverted to have the image pop
+**FishBottom.nc** and **FishTop.nc** Fish, trying inverted to have the image pop. Since the full image won't print in one go, trying it in two passes.
 
 ![Fish](Fish.jpg)
 
