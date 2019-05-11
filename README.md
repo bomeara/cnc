@@ -127,3 +127,19 @@ And a closeup of the tree, so you can see how the v-bit results in a not smooth 
 And the version after the CNC
 
 ![Trying sign](TryingCompleted.jpg)
+
+**BertolliniBennett.nc** Two teacher presents on one board
+
+[!Bertollini and Bennett](BertolliniBennett.jpg)
+
+**ChapmanEmmons.nc** Two more teacher presents on one board
+
+[!Chapman and Emmons](ChapmanEmmons.jpg)
+
+**RamsLogo.nc** Rocky Hill Rams logo
+
+[!Rams logo](RamsLogo.jpg)
+
+**Tates.nc** Tate's school logo
+
+[!Tates](Tates.jpg)
