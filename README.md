@@ -130,16 +130,16 @@ And the version after the CNC
 
 **BertolliniBennett.nc** Two teacher presents on one board
 
-[!Bertollini and Bennett](BertolliniBennett.jpg)
+![Bertollini and Bennett](BertolliniBennett.jpg)
 
 **ChapmanEmmons.nc** Two more teacher presents on one board
 
-[!Chapman and Emmons](ChapmanEmmons.jpg)
+![Chapman and Emmons](ChapmanEmmons.jpg)
 
 **RamsLogo.nc** Rocky Hill Rams logo
 
-[!Rams logo](RamsLogo.jpg)
+![Rams logo](RamsLogo.jpg)
 
 **Tates.nc** Tate's school logo
 
-[!Tates](Tates.jpg)
+![Tates](Tates.jpg) 
