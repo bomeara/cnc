@@ -128,18 +128,22 @@ And the version after the CNC
 
 ![Trying sign](TryingCompleted.jpg)
 
-**BertolliniBennett.nc** Two teacher presents on one board
-
-![Bertollini and Bennett](BertolliniBennett.jpg)
-
-**ChapmanEmmons.nc** Two more teacher presents on one board
-
-![Chapman and Emmons](ChapmanEmmons.jpg)
-
 **RamsLogo.nc** Rocky Hill Rams logo
 
 ![Rams logo](RamsLogo.jpg)
 
 **Tates.nc** Tate's school logo
 
-![Tates](Tates.jpg) 
+![Tates](Tates.jpg)
+
+The screw inside the housing for the spindle, which moved it along the x axis, stopped engaging the threaded rod (perhaps the threads got stripped). I've emailed the company for help, but in the meantime, used shapelock (see [article](https://makezine.com/2011/09/28/the-many-uses-of-shapelock/)) to make a nut to use. The downside is that it sticks out of the right side of the housing, limiting the x axis travel (which I only discovered when the right side of the below print failed).
+
+**BertolliniBennett.nc** Two teacher presents on one board
+
+![Bertollini and Bennett](BertolliniBennett.jpg)
+
+I've thus created a new print with this and other teacher gifts to put them all on one board, and leaving the part on the right open.
+
+**BennettAndOthers.nc**
+
+![BennettAndOthers](BennettAndOthers.jpg)
