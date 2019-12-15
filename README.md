@@ -146,4 +146,54 @@ I've thus created a new print with this and other teacher gifts to put them all 
 
 **BennettAndOthers.nc**
 
-![BennettAndOthers](BennettAndOthers.jpg)
+![BennettAndOthers](BennettAndOthers.jpg)s
+
+## True 3D
+
+The above files are made with Easel and work well for essentially 2D: taking letters or a flat image and extruding them into wood. But what about topography or things like that, where there are multiple heights? For that, use Fusion 360 and the tools there.
+
+Get a 3D shape file. [Thingiverse](https://www.thingiverse.com/) is good in general; Thatcher Chamberlin's [http://jthatch.com/Terrain2STL/](Terrain2STL) is good for topography.
+
+Bring it into Fusion 360.
+
+Scale it so it's the right size (the Inspect tool tab has a ruler).
+
+Go to Manufacture area.
+
+Select Setup -> New Setup
+
+![Fusion setup](fusionsetup.jpg)
+
+Select a corner for the origin
+
+![Fusion corner](fusionboxpointcorner.jpg)
+
+Check dimensions, then click ok
+
+![Fusion stock dimension](fusionstockdimension.jpg)
+
+Select the Morphed Spiral approach
+
+![Fusion morphed](fusionmorphedspiral.jpg)
+
+Select the appropriate tool. For mine, I have a 20 degree V bit, so I got an example tool definition from a forum for the X-carve and used that.
+
+![Fusion tool](fusiontool.jpg)
+
+I don't have a coolant for my CNC, so I change the coolant setting
+
+![Fusion coolant](fusioncoolant.jpg)
+
+In the next tab within the morphed spiral window, click on tool orientation, choose stock box point (the dimensions of the wood you're cutting), and pick where you want the origin to be (where the zero is for your tool). I typically choose the front left corner.
+
+![Fusion tool orientation](fusiontoolorientation.jpg)
+
+Stepover is how far between parallel passes. I've found that with a V bit the spacing is too large, so it makes visible lines. A smaller stepover will make a finer cut, but at the cost of more time to run.
+
+![Fusion stepover](fusionstepover.jpg)
+
+I want to do multiple passes in the z (vertical) direction so the bit doesn't have to remove the entire depth at once. This is done by selecting the Axial offset passes button and then increasing the number of stepdowns. The greater the number, the more passes but the less removed each pass.
+
+![Fusion axial](fusionaxial.jpg)
+
+After all that, click ok. It will then take some time (minutes, maybe even longer) to plan the passes.
