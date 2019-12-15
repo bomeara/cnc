@@ -19,13 +19,19 @@ CNC: Purchased a [MySweety 3018](https://www.amazon.com/gp/product/B07DXMFY38/re
 * The machine came with a link to a file sharing site with info that looked a bit skeevy (lots of files, not clear names, etc.). It's not needed for software or anything, just instructions, but it's not great.
 * Connection between the motors and threaded rods uses adaptors with set screws; so far, those have come loose about 2/3 of the first prints, making the print fail (b/c an axis of movement stops). I've now put the set screws in both sides of the rod (i.e., where the adaptor connects to the motor, there's two holes for set screws, but the instructions indicated use just one side -- using two has been better).
 
-Overall, I think this was ok value for the price; had I more money available for this, I'd probably look into other options, though.
+Overall, I think this was ok value for the price.
+
+**Update:**
+
+A screw became stripped on the head with the spindle. I reached out to the company: they asked for more detail, then sent a replacement for this quickly. I've been impressed by their level of service -- far beyond what I expected from a fairly inexpensive, entry level CNC.
 
 ## Controller
 
 ![Controller](controller.jpg)
 
-The controller is pretty simple: put a card in the back, then use the buttons to choose what to do. Center red button is select, the yellow buttons in the control menu can be used to move the spindle up/down (left buttons), forward/back (top/bottom), left/right (left/right). The one thing that was confusing was how to go back up a level in the menus: do to, hold the bottom right button for a few seconds.
+The controller is pretty simple: put a card in the back, then use the buttons to choose what to do. Center red button is select, the yellow buttons in the control menu can be used to move the spindle up/down (left buttons), forward/back (top/bottom), left/right (left/right). The center right button changes the multiplier for the movement: if set to 10X, a single button press moves the spindle a lot, if set to 0.1, the press moves it a tiny bit. Good for aligning the spindle with the desired origin.
+
+The one thing that was confusing was how to go back up a level in the menus: do to, hold the bottom right button for a few seconds.
 
 To print, file -> file.name, then ok. It may take several seconds to a minute or so (I presume while it loads the g-code into its memory), then start printing.
 
@@ -197,3 +203,73 @@ I want to do multiple passes in the z (vertical) direction so the bit doesn't ha
 ![Fusion axial](fusionaxial.jpg)
 
 After all that, click ok. It will then take some time (minutes, maybe even longer) to plan the passes.
+
+You can then see the paths the spindle will take
+
+![Fusion paths](fusionpaths.jpg)
+
+And you can use the Actions -> simulate option to see how the spindle will move (and how long the whole run will take).
+
+![Fusion simulate](fusionsimulate.jpg)
+
+You will then need to export this in a form your CNC can use. This is done with the Actions -> Post Process
+
+![Fusion action](fusionaction.jpg)
+
+For my CNC, I choose the Grbl option. A different machine may require a different option.
+
+![Fusion GRBL](fusiongrbl.jpg)
+
+This will create a file you can then copy onto the micro SD card for the CNC.
+
+```
+(1001)
+G90 G94
+G17
+G20
+G28 G91 Z0
+G90
+
+(Morphed Spiral5)
+T1 M6
+S12000 M3
+G54
+G0 X-3.4447 Y2.3845
+Z0.6
+Z-0.0357
+G1 X-3.4444 Z-0.0383 F1.97
+X-3.4436 Z-0.0407
+X-3.4422 Z-0.0429
+X-3.4404 Z-0.0448
+X-3.4382 Z-0.0462
+X-3.4358 Z-0.0471
+X-3.4332 Z-0.0475
+X-3.4306 Z-0.0472
+X-3.4281 Z-0.0465
+X-3.4258 Z-0.0451
+X-3.4121 Z-0.0349
+X-3.4082 Z-0.0319
+X-3.3993 Y2.3844 Z-0.0229
+X-3.3894 Z-0.0151
+X-3.3801 Z-0.0091
+X-3.3674 Z0.0046
+X-3.3614 Z0.0115
+
+(many, many more lines)
+
+X-3.5384 Z-0.1986
+X-3.5072 Z-0.1985
+X-3.4788 Z-0.1982
+X-3.4612 Z-0.198
+X-3.4504 Z-0.1978
+X-3.4259 Z-0.197
+G18 G2 X-3.4145 Z-0.1852 I-0.0004 K0.0118
+G0 Z0.6
+G17
+G28 G91 Z0
+G90
+G28 G91 X0 Y0
+G90
+M5
+M30
+```
